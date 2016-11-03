@@ -1,7 +1,8 @@
 <?php
 
     $base_path = __DIR__;
-    $base_url = $_SERVER['HTTP_REFERER'];
+    $base_url = 'http://' . $_SERVER['HTTP_HOST'];
+    $db = new PDO('mysql:host=127.0.0.1;dbname=aston', 'root', '');
 
     include($base_path . '/apps/core/commons.php');
 

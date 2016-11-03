@@ -1,4 +1,3 @@
-<?php global $base_url; ?>
 <div class="container" style="padding: 60px;">
     <form class="form-horizontal" method="post" action="<?php print $base_url . '/apps/book/model/book.sql.php'; ?>">
 
