@@ -1,0 +1,8 @@
+
+<div class="container">
+    <hr>
+
+    <footer>
+        <p>&copy; Company 2015</p>
+    </footer>
+</div>
