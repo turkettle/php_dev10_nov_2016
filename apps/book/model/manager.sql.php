@@ -55,7 +55,6 @@
      * Récupère plusieurs livre en BDD.
      */
     function delete_book($id) {
-
         global $db;
         $query = $db->prepare("
             DELETE
