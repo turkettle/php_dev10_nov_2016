@@ -1,10 +1,10 @@
 <div class="container" style="padding: 60px;">
-    <form class="form-horizontal" method="post" action="<?php print $base_url . '/apps/book/model/book.sql.php'; ?>">
+    <form novalidate class="form-horizontal" method="post" id="bookForm">
 
       <div class="form-group">
         <label for="title" class="col-sm-2 control-label">Titre</label>
         <div class="col-sm-6">
-          <input name="title" type="text" class="form-control" id="title" placeholder="Titre">
+          <input name="title" type="text" class="form-control" id="title" placeholder="Titre" required>
         </div>
       </div>
 
@@ -32,7 +32,7 @@
 
       <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
-          <button type="submit" class="btn btn-default">Sign in</button>
+          <button type="submit" class="btn btn-default">Valider</button>
         </div>
       </div>
     </form>

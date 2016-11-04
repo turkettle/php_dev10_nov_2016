@@ -1,7 +1,4 @@
 <?php
-    // print '<pre>';
-    // var_dump($_SERVER);
-    // print '</pre>';die();
 
     $base_path = __DIR__;
     $base_url = 'http://' . $_SERVER['HTTP_HOST'];
